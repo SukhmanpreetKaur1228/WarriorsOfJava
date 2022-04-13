@@ -23,11 +23,11 @@ public class GroupOfCards
     private ArrayList <Card> cards;
     private int size;//the size of the grouping
     
-    public GroupOfCards(int givenSize)
-    {
-        size = givenSize;
-    }
-    
+//    public GroupOfCards(int givenSize)
+//    {
+//        size = givenSize;
+//    }
+//   
     /**
      * A method that will get the group of cards as an ArrayList
      * @return the group of cards.

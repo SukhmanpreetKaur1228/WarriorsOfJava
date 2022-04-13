@@ -16,14 +16,14 @@ import java.util.ArrayList;
  */
 public abstract class Game 
 {
-    private final String gameName;//the title of the game
+    private String gameName;//the title of the game
     private ArrayList <Player> players;// the players of the game
     
-    public Game(String givenName)
-    {
-        gameName = givenName;
-        players = new ArrayList();
-    }
+//    public Game(String givenName)
+//    {
+//        gameName = givenName;
+//        players = new ArrayList();
+//    }
 
     /**
      * @return the gameName
@@ -31,6 +31,10 @@ public abstract class Game
     public String getGameName() 
     {
         return gameName;
+    }
+    public void setGameName(String gameName) 
+    {
+        this.gameName = gameName;
     }
     
      /**

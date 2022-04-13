@@ -22,8 +22,23 @@ public abstract class Card
      * Students should implement this method for their specific children classes 
      * @return a String representation of a card. Could be an UNO card, a regular playing card etc.
      */
+    private String suit;
+    private int number;
     
     @Override
     public abstract String toString();
+    
+    public void setSuit(String suit){
+        this.suit=suit;
+    }
+    public String getSuit(){
+        return suit;
+    }
+    public void setNumber(int number){
+        this.number=number;
+    }
+    public int getNumber(){
+        return number;
+    }
     
 }
