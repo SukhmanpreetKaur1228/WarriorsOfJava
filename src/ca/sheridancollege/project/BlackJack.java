@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package ca.sheridancollege.project;
 
 /**
@@ -14,12 +11,12 @@ public class BlackJack extends Game{
     private static BlackJack Bj;
     @Override
     public void play() {
-        throw new UnsupportedOperationException("Not supported yet.");
+        
     }
 
     @Override
     public void declareWinner() {
-        throw new UnsupportedOperationException("Not supported yet."); 
+        
     }
     
 
