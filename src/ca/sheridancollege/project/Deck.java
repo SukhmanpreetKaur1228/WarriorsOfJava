@@ -4,10 +4,12 @@
  */
 package ca.sheridancollege.project;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Sukhmanpreet Kaur, Apr 12, 2022
  */
 public class Deck extends GroupOfCards{
-    
+    private ArrayList<Card> deck;
 }

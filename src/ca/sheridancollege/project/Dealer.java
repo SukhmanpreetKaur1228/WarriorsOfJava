@@ -6,42 +6,21 @@ package ca.sheridancollege.project;
 
 /**
  *
- * @author sukhm
+ * @author Sukhmanpreet Kaur, Apr 12, 2022
  */
 public class Dealer extends Player{
-    private int score;
-    private String playerId;
+
+    private final String NAME="Dealer";
     @Override
     public void play() {
         //will be implel=mented soon
     }
 
     /**
-     * @return the score
+     * @return the NAME
      */
-    public int getScore() {
-        return score;
-    }
-
-    /**
-     * @param score the score to set
-     */
-    public void setScore(int score) {
-        this.score = score;
-    }
-
-    /**
-     * @return the playerId
-     */
-    public String getPlayerId() {
-        return playerId;
-    }
-
-    /**
-     * @param playerId the playerId to set
-     */
-    public void setPlayerId(String playerId) {
-        this.playerId = playerId;
+    public String getNAME() {
+        return NAME;
     }
     
 }
