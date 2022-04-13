@@ -3,6 +3,7 @@ package ca.sheridancollege.project;
 /**
  *
  * @author Sukhmanpreet Kaur, Apr 12, 2022
+ * @author Harkiat Bonkra, Apr 12, 2022
  */
 public class User extends Player{
     private String firstName;

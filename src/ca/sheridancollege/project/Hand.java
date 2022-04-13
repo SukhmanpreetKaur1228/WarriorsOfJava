@@ -9,6 +9,7 @@ import java.util.ArrayList;
 /**
  *
  * @author Sukhmanpreet Kaur, Apr 12, 2022
+ * @author Harkiat Bonkra, Apr 12, 2022
  */
 public class Hand extends GroupOfCards{
     private ArrayList<Card> hand;
