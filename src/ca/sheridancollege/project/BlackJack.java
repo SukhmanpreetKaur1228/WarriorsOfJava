@@ -22,6 +22,12 @@ public class BlackJack extends Game {
         String firstName = scnr.nextLine();
         System.out.println("Please enter your last name");
         String lastName = scnr.nextLine();
+        if("".equals(firstName)|"".equals(lastName)){
+            System.out.println("Please enter a valid first name and last name");
+            play();
+            
+        }
+        else{
         Bj.getRegistered(firstName, lastName);
 //        Card c = new Card();
         for (int i = 1; i < 14; i++) {
@@ -47,13 +53,14 @@ public class BlackJack extends Game {
             Deck.getDeck().remove(rIndex);
             rIndex = (int) (Math.random() * Deck.getDeck().size());
         }
-        user.setPlayerID("user" + (int) (Math.random() * 1500));
+//        user.setPlayerID("user" + (int) (Math.random() * 1500));
         dealer.setPlayerID("Dealer");
         displayCards(user);
         displayScore(user);
         displayCards(dealer);
         displayScore(dealer);
         hitOrStand();
+        }
     }
     
     public void giveCardTo(Player player){
@@ -69,6 +76,12 @@ public class BlackJack extends Game {
                 break;
             case "Stand":
                 stand();
+                break;
+            default: {
+                System.out.println("Please enter exactly Hit or stand");
+                hitOrStand();
+            }
+            break;
         }
     }
 
@@ -172,6 +185,7 @@ public class BlackJack extends Game {
     public void getRegistered(String firstName, String lastName) {
         user.setFirstName(firstName);
         user.setLastName(lastName);
+        user.setPlayerID(lastName+" "+firstName);
     }
 
     public void displayScore(Player player) {

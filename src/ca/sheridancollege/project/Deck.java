@@ -13,11 +13,16 @@ import java.util.ArrayList;
  */
 public class Deck extends GroupOfCards {
 
-    private static ArrayList<Card> deck = new ArrayList<Card>(52);
+    private static ArrayList<Card> deck;
 
    
 
     public static ArrayList<Card> getDeck() {
+        if(deck==null)
+        {
+            deck  = new ArrayList<>(52);
+        }
+        
         return deck;
     }
 }
