@@ -10,10 +10,10 @@ package ca.sheridancollege.project;
  */
 public class Dealer extends Player{
     private final String NAME="Dealer";
-    @Override
-    public void play() {
-        //will be implemented soon
-    }
+//    @Override
+//    public void play() {
+//        //will be implemented soon
+//    }
 
     /**
      * @return the NAME

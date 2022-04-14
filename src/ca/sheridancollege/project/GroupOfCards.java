@@ -40,7 +40,7 @@ public class GroupOfCards
     public ArrayList<Card> showCards(Player player)
     {
         
-        return player.getHand().getHand();
+        return player.getHand();
     }
     
     public void shuffle(ArrayList<Card> cards)
