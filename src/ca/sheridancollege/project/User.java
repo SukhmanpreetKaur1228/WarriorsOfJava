@@ -7,6 +7,7 @@ package ca.sheridancollege.project;
 public class User extends Player{
     private String firstName;
     private String lastName;
+    
     @Override
     public void play() {
         //This method will be implemented soon

@@ -11,5 +11,8 @@ import java.util.ArrayList;
  * @author Sukhmanpreet Kaur, Apr 12, 2022
  */
 public class Hand extends GroupOfCards{
-    private ArrayList<Card> hand;
+    private static ArrayList<Card> hand = new ArrayList<Card>(2);
+    public ArrayList<Card> getHand(){
+        return hand;
+    }
 }

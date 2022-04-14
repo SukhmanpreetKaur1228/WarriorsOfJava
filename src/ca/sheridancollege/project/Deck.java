@@ -10,6 +10,13 @@ import java.util.ArrayList;
  *
  * @author Sukhmanpreet Kaur, Apr 12, 2022
  */
-public class Deck extends GroupOfCards{
-    private ArrayList<Card> deck;
+public class Deck extends GroupOfCards {
+
+    private static ArrayList<Card> deck = new ArrayList<Card>(52);
+
+   
+
+    public static ArrayList<Card> getDeck() {
+        return deck;
+    }
 }

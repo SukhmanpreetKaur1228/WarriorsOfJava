@@ -13,8 +13,6 @@ public class BlackJack_Tester {
     
     public static void main(String[] args){
         BlackJack Bj = BlackJack.getInstance();
-        BlackJack Bj1 = BlackJack.getInstance();
-        System.out.println(Bj);
-        System.out.println(Bj1);
+        Bj.play();
     }
 }

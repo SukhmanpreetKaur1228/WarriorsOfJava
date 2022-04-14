@@ -14,7 +14,7 @@ package ca.sheridancollege.project;
  * @author Asmabanu Saiyed, Apr 12, 2022
  * @author Harkirat Bonkra, Apr 12, 2022
  */
-public abstract class Card 
+public  class Card 
 {
     //default modifier for child classes
     
@@ -25,8 +25,9 @@ public abstract class Card
     private String suit;
     private int number;
     
-    @Override
-    public abstract String toString();
+//    
+//    @Override
+//    public abstract String toString();
     
     public void setSuit(String suit){
         this.suit=suit;

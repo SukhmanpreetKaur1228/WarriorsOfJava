@@ -9,11 +9,10 @@ package ca.sheridancollege.project;
  * @author Sukhmanpreet Kaur, Apr 12, 2022
  */
 public class Dealer extends Player{
-
     private final String NAME="Dealer";
     @Override
     public void play() {
-        //will be implel=mented soon
+        //will be implemented soon
     }
 
     /**
@@ -22,5 +21,6 @@ public class Dealer extends Player{
     public String getNAME() {
         return NAME;
     }
+
     
 }

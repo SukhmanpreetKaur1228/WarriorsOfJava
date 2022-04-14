@@ -21,24 +21,29 @@ public class GroupOfCards
 {
    
     //The group of cards, stored in an ArrayList
-    private ArrayList <Card> cards;
-    private int size;//the size of the grouping
+    //private static ArrayList <Card> cards = new ArrayList<Card>();
+    private static int size;//the size of the grouping
     
 //    public GroupOfCards(int givenSize)
 //    {
 //        size = givenSize;
 //    }
 //   
+    public static Card getCardAt(ArrayList <Card> cards, int i){
+        
+        return cards.get(i);
+    }
     /**
      * A method that will get the group of cards as an ArrayList
      * @return the group of cards.
      */
-    public ArrayList<Card> showCards()
+    public ArrayList<Card> showCards(Player player)
     {
-        return cards;
+        
+        return player.getHand().getHand();
     }
     
-    public void shuffle()
+    public void shuffle(ArrayList<Card> cards)
     {
         Collections.shuffle(cards);
     }
@@ -53,7 +58,7 @@ public class GroupOfCards
     /**
      * @param givenSize the max size for the group of cards
      */
-    public void setSize(int givenSize) {
+    public static void setSize(int givenSize) {
         size = givenSize;
     }
     
