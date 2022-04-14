@@ -7,6 +7,7 @@ package ca.sheridancollege.project;
 /**
  *
  * @author Sukhmanpreet Kaur, Apr 12, 2022
+ * @author Harkirat Bonkra, Apr 12, 2022
  */
 public class BlackJack_Tester {
     

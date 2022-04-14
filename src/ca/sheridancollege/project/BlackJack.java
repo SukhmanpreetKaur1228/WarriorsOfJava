@@ -5,6 +5,7 @@ import java.util.Scanner;
 /**
  *
  * @author Sukhmanpreet Kaur, Apr 12, 2022
+ * @author Harkiat Bonkra, Apr 12, 2022
  */
 //Singleton
 public class BlackJack extends Game {
