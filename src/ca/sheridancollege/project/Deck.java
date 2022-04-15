@@ -15,7 +15,9 @@ public class Deck extends GroupOfCards {
 
     private static ArrayList<Card> deck;
 
-   
+    private Deck(){
+        
+    }
 
     public static ArrayList<Card> getDeck() {
         if(deck==null)
